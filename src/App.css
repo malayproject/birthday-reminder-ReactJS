@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  width: 100vw;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App  {
+  width: 100vw;
+  height: 100vh;
+  /* border: 1px solid black; */
+  background-color: #606060ff;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.main {
+  width: 30%;
+  min-width: 250px;
+  max-height: 72vh;
+  /* min-height: 80px; */
+  /* border: 1px solid white; */
+  border-radius: 1.4%;
+  background-color: #D6ED17FF;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title  {
+  width: 80%;
+  height: 10%;
+  /* border: 1px solid white; */
+  justify-content: center;
+  align-items: center;
+  color: rgb(212, 253, 166);
+  text-align: center;
+  /* padding-left: 4%; */
 }
+
+.count  {
+  width: 100%;
+  height: 7%;
+  /* border: 1px solid black; */
+  padding-left: 3%;
+  font-weight: bold;
+}
+
+.persons  {
+  width: 100%;
+  min-height: 30px;
+  /* border: 1px solid black; */
+  overflow-y: scroll;
+}
+
+.button {
+  width: 50%;
+  height: 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  background-color: #606060ff;
+  color: #F6FD77FF;
+  border: 0;
+  border-radius: 5px;
+  margin: 3% 0;
+}
+
+.person{
+  width: 90%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.nameAge {
+  width: 80%;
+  /* border: 1px solid red; */
+  padding: 4% 0 0 4%;
+}
+
+.person img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-self: center;
+  margin-left: 4%;
+}
+
